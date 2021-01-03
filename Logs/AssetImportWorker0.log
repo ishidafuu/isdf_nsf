@@ -1,0 +1,611 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ishida/Documents/isdf_nsf
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60939
+Successfully changed project path to: /Users/ishida/Documents/isdf_nsf
+/Users/ishida/Documents/isdf_nsf
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ishida/Documents/isdf_nsf/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-03 23:20:22.978 Unity[66606:2409716] (null) preferred device: Apple M1 (high power)
+2021-01-03 23:20:22.978 Unity[66606:2409716] Metal devices available: 1
+2021-01-03 23:20:22.978 Unity[66606:2409716] 0: Apple M1 (high power)
+2021-01-03 23:20:22.979 Unity[66606:2409716] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56606
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002660 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 21.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.157 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.5 MB.
+System memory in use after: 107.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1536.
+Total: 1.222417 ms (FindLiveObjects: 0.083167 ms CreateObjectMapping: 0.020958 ms MarkObjects: 1.070583 ms  DeleteObjects: 0.046833 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GME.cs
+  artifactKey: Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GME.cs using Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f69cf6a874dbcbd0c213484fadc9a') in 0.273461 seconds
+  Import took 0.275349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(fa63030dc30e9904f9f8b54a657aa704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(fa63030dc30e9904f9f8b54a657aa704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed7c7ce806ae480e1621d3740d579b2') in 0.001052 seconds
+  Import took 0.001935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.017194 seconds.
+  path: Assets/Plugins/IngameDebugConsole
+  artifactKey: Guid(7d829055725bbb5448c5ae14edf561fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IngameDebugConsole using Guid(7d829055725bbb5448c5ae14edf561fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a6fff9e109b338615f83015919e28') in 0.001720 seconds
+  Import took 0.005256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001878 seconds.
+  path: Assets/Plugins/IngameDebugConsole
+  artifactKey: Guid(7d829055725bbb5448c5ae14edf561fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/IngameDebugConsole using Guid(7d829055725bbb5448c5ae14edf561fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a6fff9e109b338615f83015919e28') in 0.001066 seconds
+  Import took 0.003315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.665427 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS
+  artifactKey: Guid(4c3d8157276a845de8befd9851bdfdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS using Guid(4c3d8157276a845de8befd9851bdfdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f767378f5b65b4f3746816330c65f873') in 0.002806 seconds
+  Import took 0.005035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.810669 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/testcp.cpp
+  artifactKey: Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/testcp.cpp using Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed1b12a62ca8d8936a769cbd2e7bac1') in 1.204587 seconds
+  Import took 1.206255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.221069 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/Info.plist
+  artifactKey: Guid(85a4cff1d07de4181b8511b6b4dbe406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/Info.plist using Guid(85a4cff1d07de4181b8511b6b4dbe406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05130a221c26bb633bbb3ec26ff0542b') in 0.680006 seconds
+  Import took 0.681873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379103 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/gmeWrapper.m
+  artifactKey: Guid(4f4431ddbf41e4e148d20f409a1d0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/gmeWrapper.m using Guid(4f4431ddbf41e4e148d20f409a1d0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3007cca687f58ab343dfad00b5972768') in 1.098870 seconds
+  Import took 1.100836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/testcp.h
+  artifactKey: Guid(342b88e388a5b41a7a7e39ca06e08763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/testcp.h using Guid(342b88e388a5b41a7a7e39ca06e08763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a139dc76403ddb20f3c57bb6506953b4') in 0.734174 seconds
+  Import took 0.735464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.093015 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/testcp.cpp
+  artifactKey: Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/testcp.cpp using Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525fe4c3704f30a9ae87806ac7162653') in 0.022875 seconds
+  Import took 0.042501 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1538.
+Total: 1.718916 ms (FindLiveObjects: 0.098333 ms CreateObjectMapping: 0.022750 ms MarkObjects: 1.574500 ms  DeleteObjects: 0.022666 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.841385 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/gmeWrapper.m
+  artifactKey: Guid(4f4431ddbf41e4e148d20f409a1d0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/gmeWrapper.m using Guid(4f4431ddbf41e4e148d20f409a1d0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb22f0e333144546e0eafe775bb987e') in 0.021675 seconds
+  Import took 0.023767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.048993 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/gmeWrapper.h
+  artifactKey: Guid(2fa13284706904956b8d61bf1d3d3437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/gmeWrapper.h using Guid(2fa13284706904956b8d61bf1d3d3437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53077ea25c05e36dd7c68a6d05dd40c3') in 0.008064 seconds
+  Import took 0.010186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.961702 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/testcp.h
+  artifactKey: Guid(342b88e388a5b41a7a7e39ca06e08763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/testcp.h using Guid(342b88e388a5b41a7a7e39ca06e08763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcfc4f7f316ddc0d750e5c13c33b23d') in 0.186347 seconds
+  Import took 0.287534 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.8 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1538.
+Total: 147.220875 ms (FindLiveObjects: 3.424125 ms CreateObjectMapping: 0.087000 ms MarkObjects: 143.673041 ms  DeleteObjects: 0.033500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1538.
+Total: 15.987584 ms (FindLiveObjects: 0.222709 ms CreateObjectMapping: 0.022625 ms MarkObjects: 15.707041 ms  DeleteObjects: 0.034125 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.1 MB.
+System memory in use after: 108.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1538.
+Total: 16.907500 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.027917 ms MarkObjects: 16.304541 ms  DeleteObjects: 0.027750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 802.213086 seconds.
+  path: Assets/Plugins/gmeWrapper/iOS/testcp.cpp
+  artifactKey: Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gmeWrapper/iOS/testcp.cpp using Guid(17852938039624067b5421a31dccd056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a81b4d284101edb54249c0a4b81518') in 0.035252 seconds
+  Import took 0.058100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 568.960261 seconds.
+  path: Assets/GME.cs
+  artifactKey: Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GME.cs using Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d207a2cd33a3851acd5bd7325f6b9') in 0.008145 seconds
+  Import took 0.023576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024960 seconds.
+  path: Assets/GME.cs
+  artifactKey: Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GME.cs using Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d207a2cd33a3851acd5bd7325f6b9') in 0.027070 seconds
+  Import took 0.028885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.655602 seconds.
+  path: Assets/GME.cs
+  artifactKey: Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GME.cs using Guid(376bd8dd6b1b39640903ff2bfe958421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9215cce6c17ef8b3f2ef50b8b04f3e9e') in 0.013611 seconds
+  Import took 0.044557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.8 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1540.
+Total: 3.046541 ms (FindLiveObjects: 0.104416 ms CreateObjectMapping: 0.039333 ms MarkObjects: 2.736917 ms  DeleteObjects: 0.165000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 1.374042 ms (FindLiveObjects: 0.097167 ms CreateObjectMapping: 0.023583 ms MarkObjects: 1.206083 ms  DeleteObjects: 0.046708 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 40.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.6 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 15.949208 ms (FindLiveObjects: 0.166584 ms CreateObjectMapping: 0.024458 ms MarkObjects: 15.695334 ms  DeleteObjects: 0.062167 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.302074 seconds.
+  path: Assets/Plugins/gme/iOS/blargg_source.h
+  artifactKey: Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/blargg_source.h using Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ab55c23586739820d0334e4212b040') in 0.162045 seconds
+  Import took 0.214238 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 76.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.7 MB.
+System memory in use after: 111.8 MB.
+
+Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 1542.
+Total: 33.788584 ms (FindLiveObjects: 1.534209 ms CreateObjectMapping: 0.034125 ms MarkObjects: 32.148583 ms  DeleteObjects: 0.070417 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1398.620494 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(59a8784ca844746529aae7a5bec0f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(59a8784ca844746529aae7a5bec0f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c29be74eaa2e261e4809fc891f8bfe3') in 0.018476 seconds
+  Import took 0.081777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.690329 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e5e1189849170fb4a8fce5212914e3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e5e1189849170fb4a8fce5212914e3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9e4209981d70782f23df3d4a6770a9') in 0.001946 seconds
+  Import took 0.005904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601861 seconds.
+  path: Assets/sample2.nsf
+  artifactKey: Guid(b8fb921fdf1d50948b27b8a5fa7029ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sample2.nsf using Guid(b8fb921fdf1d50948b27b8a5fa7029ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d8e9120e1a93e0b3d8c7c22b6c5974') in 1.276919 seconds
+  Import took 1.279050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561037 seconds.
+  path: Assets/sample2 1.nsf
+  artifactKey: Guid(3d3b3c1c45e1344a88e8784980b38c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sample2 1.nsf using Guid(3d3b3c1c45e1344a88e8784980b38c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a512dd6be4c5f8ed1263eaff9f990fa') in 0.003872 seconds
+  Import took 0.005620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.797340 seconds.
+  path: Assets/StreamingAssets/sample2.nsf
+  artifactKey: Guid(3d3b3c1c45e1344a88e8784980b38c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/sample2.nsf using Guid(3d3b3c1c45e1344a88e8784980b38c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161045a5b9b87c85aecf4ba11e8f778c') in 0.002437 seconds
+  Import took 0.004180 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1544.
+Total: 3.219917 ms (FindLiveObjects: 0.452000 ms CreateObjectMapping: 0.041000 ms MarkObjects: 2.564417 ms  DeleteObjects: 0.161458 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.121 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.1 MB.
+System memory in use after: 138.2 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1546.
+Total: 3.079500 ms (FindLiveObjects: 0.130916 ms CreateObjectMapping: 0.025000 ms MarkObjects: 2.243417 ms  DeleteObjects: 0.678959 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.470 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 138.5 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1548.
+Total: 1.411708 ms (FindLiveObjects: 0.185917 ms CreateObjectMapping: 0.046042 ms MarkObjects: 1.114125 ms  DeleteObjects: 0.064000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.934005 seconds.
+  path: Assets/Plugins/gme/iOS/Blip_Buffer.cpp
+  artifactKey: Guid(f824d80813b834d5d9440e32d32eb95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Blip_Buffer.cpp using Guid(f824d80813b834d5d9440e32d32eb95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a547152942597441ec591d970cb7e3') in 0.035706 seconds
+  Import took 0.038638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074861 seconds.
+  path: Assets/Plugins/gme/iOS/Blip_Buffer.cpp
+  artifactKey: Guid(f824d80813b834d5d9440e32d32eb95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Blip_Buffer.cpp using Guid(f824d80813b834d5d9440e32d32eb95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a547152942597441ec591d970cb7e3') in 0.003217 seconds
+  Import took 0.004739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009260 seconds.
+  path: Assets/Plugins/gme/iOS/blargg_source.h
+  artifactKey: Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/blargg_source.h using Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd070bf07af3d81d6a2914707fb18f9') in 0.022197 seconds
+  Import took 0.036542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005016 seconds.
+  path: Assets/Plugins/gme/iOS/blargg_source.h
+  artifactKey: Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/blargg_source.h using Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd070bf07af3d81d6a2914707fb18f9') in 0.002016 seconds
+  Import took 0.003673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.160187 seconds.
+  path: Assets/Plugins/gme/iOS/Data_Reader.cpp
+  artifactKey: Guid(9eeabd9ec9e3d4dba99e9e965e74d22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Data_Reader.cpp using Guid(9eeabd9ec9e3d4dba99e9e965e74d22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d44d313729a216e1005aa43bac3005') in 0.009487 seconds
+  Import took 0.018335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.998593 seconds.
+  path: Assets/Plugins/gme/iOS/blargg_common.h
+  artifactKey: Guid(2a17da12745b3490c9c6195f9b2064f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/blargg_common.h using Guid(2a17da12745b3490c9c6195f9b2064f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38105273a994719d89993952502c0931') in 0.005547 seconds
+  Import took 0.007936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.830116 seconds.
+  path: Assets/Plugins/gme/iOS/Dual_Resampler.cpp
+  artifactKey: Guid(aa600e8efe8c5422c877c04af06101ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Dual_Resampler.cpp using Guid(aa600e8efe8c5422c877c04af06101ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0a816a6f25930d1ff1a7f742095c54') in 0.003012 seconds
+  Import took 0.004709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Plugins/gme/iOS/Dual_Resampler.cpp
+  artifactKey: Guid(aa600e8efe8c5422c877c04af06101ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Dual_Resampler.cpp using Guid(aa600e8efe8c5422c877c04af06101ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0a816a6f25930d1ff1a7f742095c54') in 0.001924 seconds
+  Import took 0.003768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.897171 seconds.
+  path: Assets/Plugins/gme/iOS/Gme_File.cpp
+  artifactKey: Guid(ae626241808534837a9f4095d656fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Gme_File.cpp using Guid(ae626241808534837a9f4095d656fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db99b85dc5de9f4e577a104d1795e2a') in 0.003683 seconds
+  Import took 0.005597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Plugins/gme/iOS/Gme_File.cpp
+  artifactKey: Guid(ae626241808534837a9f4095d656fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Gme_File.cpp using Guid(ae626241808534837a9f4095d656fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db99b85dc5de9f4e577a104d1795e2a') in 0.001607 seconds
+  Import took 0.003018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495086 seconds.
+  path: Assets/Plugins/gme/iOS/gme.h
+  artifactKey: Guid(1c773bb6eaa4b4ec6ba9f35ec0da36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/gme.h using Guid(1c773bb6eaa4b4ec6ba9f35ec0da36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf76b045d6a0892447628756bed3f92') in 0.002712 seconds
+  Import took 0.004621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Plugins/gme/iOS/gme.h
+  artifactKey: Guid(1c773bb6eaa4b4ec6ba9f35ec0da36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/gme.h using Guid(1c773bb6eaa4b4ec6ba9f35ec0da36e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf76b045d6a0892447628756bed3f92') in 0.001900 seconds
+  Import took 0.003377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.857368 seconds.
+  path: Assets/Plugins/gme/iOS/Gb_Apu.h
+  artifactKey: Guid(e036c33ee651743c99a43ae240cd534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Gb_Apu.h using Guid(e036c33ee651743c99a43ae240cd534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a73f7e6cee141fd6f75f865d9d714a') in 0.003593 seconds
+  Import took 0.006727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.170494 seconds.
+  path: Assets/Plugins/gme/iOS/gme_types.h
+  artifactKey: Guid(5c3f6bdb4e36749af9521f9edf1d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/gme_types.h using Guid(5c3f6bdb4e36749af9521f9edf1d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3269d5df53884f1b527fcb9ff065e81') in 0.001861 seconds
+  Import took 0.003837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001022 seconds.
+  path: Assets/Plugins/gme/iOS/gme_types.h
+  artifactKey: Guid(5c3f6bdb4e36749af9521f9edf1d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/gme_types.h using Guid(5c3f6bdb4e36749af9521f9edf1d399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3269d5df53884f1b527fcb9ff065e81') in 0.001894 seconds
+  Import took 0.003198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.644598 seconds.
+  path: Assets/Plugins/gme/iOS/Ym2612_Emu.h
+  artifactKey: Guid(8fa9e14523a834e25a1c518cfa2cb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Ym2612_Emu.h using Guid(8fa9e14523a834e25a1c518cfa2cb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cdce69458bd5c4eb35207f7fe48438') in 0.004422 seconds
+  Import took 0.006226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.800774 seconds.
+  path: Assets/Plugins/gme/iOS/Ym2612_Emu.h
+  artifactKey: Guid(8fa9e14523a834e25a1c518cfa2cb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Ym2612_Emu.h using Guid(8fa9e14523a834e25a1c518cfa2cb274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ac70b49233be5904263fd89ae26e8') in 0.001875 seconds
+  Import took 0.003443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055214 seconds.
+  path: Assets/Plugins/gme/iOS/Vgm_Emu.cpp
+  artifactKey: Guid(c608fd418da6d40808dee3d6649d0ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/Vgm_Emu.cpp using Guid(c608fd418da6d40808dee3d6649d0ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f08785dad475f58580e0d32f6087d36') in 0.003726 seconds
+  Import took 0.005531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.019932 seconds.
+  path: Assets/Plugins/gme/iOS/blargg_source.h
+  artifactKey: Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/gme/iOS/blargg_source.h using Guid(9b865dfff010d4c258372754530a841c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913e2477a9d200caade3277b9cf9a139') in 0.001658 seconds
+  Import took 0.003377 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 59.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 1548.
+Total: 44.100833 ms (FindLiveObjects: 0.737000 ms CreateObjectMapping: 0.035583 ms MarkObjects: 43.265709 ms  DeleteObjects: 0.061250 ms)
+
