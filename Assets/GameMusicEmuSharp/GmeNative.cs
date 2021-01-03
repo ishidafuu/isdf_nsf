@@ -110,8 +110,11 @@ namespace GameMusicEmuSharp
 		#region P/Invoke Methods
 
 		// The name of the DLL that all these native functions are called from.
+#if UNITY_IPHONE
+		private const string DllName = "__Internal";
+#else 
 		private const string DllName = "gme";
-
+#endif
 		/* Basic operations */
 
 		/// <summary>

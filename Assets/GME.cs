@@ -11,10 +11,11 @@ public class GME : MonoBehaviour
     //再生用オーディオソース
     public AudioSource m_Audio;
 #if UNITY_EDITOR
-    // [DllImport("Dll1")]
-    // private static extern float add(float x, float y);
+    [DllImport("Dll1")]
+    private static extern float add(float x, float y);
 #elif UNITY_IPHONE
-    // Debug.Log("Unity iPhone");
+    [DllImport("__Internal")]
+    private static extern float add(float x, float y);
 #elif UNITY_ANDROID
     // [DllImport("native")]
     // private static extern float add(float x, float y);
@@ -41,11 +42,11 @@ public class GME : MonoBehaviour
     {
         float x = 3;
         float y = 10;
-        // Debug.Log(add(x, y));
+        Debug.Log(add(x, y));
 
         // IntPtr emuOut = IntPtr.Zero;
         
-        var path = Application.persistentDataPath + "/" + "sample2.nsf";
+        var path = Application.streamingAssetsPath + "/sample2.nsf";
         Debug.Log(path);
         GmeReader reader = new GmeReader(path);
         
@@ -54,7 +55,7 @@ public class GME : MonoBehaviour
         int size = reader.TrackInfo.playLength;
         // IntPtr wavPtr = AquesTalk_Synthe(ref aqtk_voice, koeSjisBytes, ref size);
         Debug.Log("size : " + size);
-
+        
         //成功判定
         // if (wavPtr == IntPtr.Zero)
         // {
